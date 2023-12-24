@@ -72,26 +72,34 @@ As the data types of most of the features in the dataset are categorical, a coun
 #### **Bar Plots for Categorical Features**
 
 
-<img src="images/plot_gender.png" alt="Image Description" width ="800" height="400">
+<img src="images/plot_gender.png" alt="Image Description" width ="800" height="300">
 
 
-Gender and partner distribution in the dataset is relatively balanced, with approximately equal values for each category. Although there is a slightly elevated churn rate in females, the marginal difference is considered negligible. Notably, a discernible proportion of churn is observed in younger customers (SeniorCitizen = 0), customers without partners, and those without dependents. The demographic analysis underscores non-senior citizens without partners and dependents as a specific customer segment exhibiting a higher likelihood of churning.
-
-<br>
-
-<img src="images/plot_SeniorCitizen.png" alt="Image Description" width ="800" height="400">
+Gender and partner distribution in the dataset is relatively balanced, with approximately equal values for each category. Although there is a slightly elevated churn rate in females, the marginal difference is considered negligible. 
 
 <br>
 
-<img src="images/plot_Partner.png" alt="Image Description" width ="800" height="400">
+<img src="images/plot_SeniorCitizen.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
-<img src="images/plot_Dependents.png" alt="Image Description" width ="800" height="400">
+<br>
+
+<img src="images/plot_Partner.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
-<img src="images/plot_PhoneService.png" alt="Image Description" width ="800" height="400">
+<br>
+
+<img src="images/plot_Dependents.png" alt="Image Description" width ="800" height="300">
+
+<br>
+
+Notably, as can be seen from the three plots above a discernible proportion of churn is observed in younger customers (SeniorCitizen = 0), customers without partners, and those without dependents. The demographic analysis underscores non-senior citizens without partners and dependents as a specific customer segment exhibiting a higher likelihood of churning. 
+
+<img src="images/plot_PhoneService.png" alt="Image Description" width ="800" height="300">
+
+<br>
 
 <br>
 
@@ -99,13 +107,22 @@ Gender and partner distribution in the dataset is relatively balanced, with appr
 
 <br>
 
+
+If a customer lacks phone service, the possibility of having multiple lines is excluded. Notably, a considerable proportion of customers subscribing to phone services exhibits a heightened likelihood of churning.
+
 <img src="images/plot_InternetService.png" alt="Image Description" width ="800" height="400">
 
 <br>
 
+<br>
+
+
 <img src="images/plot_OnlineSecurity.png" alt="Image Description" width ="800" height="400">
 
 <br>
+
+<br>
+
 
 <img src="images/plot_OnlineBackup.png" alt="Image Description" width ="800" height="400">
 
@@ -142,7 +159,7 @@ Gender and partner distribution in the dataset is relatively balanced, with appr
 
 <br>
 
-If a customer lacks phone service, the possibility of having multiple lines is excluded. Notably, a considerable proportion of customers subscribing to phone services exhibits a heightened likelihood of churning. Conversely, customers with fiber optic as their internet service demonstrate an increased propensity to churn, potentially influenced by factors such as elevated costs, market competition, and customer service concerns. The comparatively higher cost of fiber optic service, as opposed to DSL, could be a contributing factor to customer attrition.
+ Conversely, customers with fiber optic as their internet service demonstrate an increased propensity to churn, potentially influenced by factors such as elevated costs, market competition, and customer service concerns. The comparatively higher cost of fiber optic service, as opposed to DSL, could be a contributing factor to customer attrition.
 
 
 <br>
