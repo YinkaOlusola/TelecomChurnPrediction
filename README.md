@@ -68,7 +68,7 @@ Logistic Regression is a suitable choice for this task due to its interpretabili
 ### **Bar Plots for Categorical Features**
 
 
-<img src="images/electricity-pylon.jpg" alt="Image Description" width ="800" height="400">
+<img src="images/plot_gender.png" alt="Image Description" width ="800" height="400">
 
 
 The plots above show a consistently low churn rate for each categorical features. Moreso, from the plots, there is a trace of data imbalance which will be investigated using charts.
@@ -79,7 +79,36 @@ Gender and partner distribution in the dataset is relatively balanced, with appr
 
 <br>
 
-<img src="images/electricity-pylon.jpg" alt="Image Description" width ="800" height="400">
+<img src="images/plot_SeniorCitizen.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_Partner.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_Dependents.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_PhoneService.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_MultipleLines.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_InternetService.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_OnlineSecurity.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_OnlineBackup.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_DeviceProtection.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_TechSupport.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_StreamingTV.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_StreamingMovies.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_Contract.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_PaperlessBilling.png" alt="Image Description" width ="800" height="400">
+
+<img src="images/plot_PaymentMethod.png" alt="Image Description" width ="800" height="400">
+
 
 <br>
 
@@ -87,7 +116,7 @@ If a customer lacks phone service, the possibility of having multiple lines is e
 
 <br>
 
-<img src="images/electricity-pylon.jpg" alt="Image Description" width ="800" height="400">
+
 
 <br>
 
@@ -95,7 +124,7 @@ Customers availing services like OnlineSecurity, OnlineBackup, DeviceProtection,
 
 <br>
 
-<img src="images/electricity-pylon.jpg" alt="Image Description" width ="800" height="400">
+
 
 <br>
 
