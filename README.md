@@ -218,6 +218,44 @@ The shorter the contract, the higher the churn rate. Those with more extended pl
 
 In general, the plots above show a consistently low churn rate for each categorical features. Moreso, from the plots, there is a trace of data imbalance which will be investigated using charts.
 
+<br>
+
+#### **Visualizing the Churn rate per category**
+
+<br>
+
+<img src="images/churn_rate.png" alt="Image Description" width ="800" height="300">
+
+<br>
+
+The plotted count distribution provides an overview of the `Churn` column in the dataset. The x-axis represents the churn status, distinguishing between customers who have churned and those who have not. The y-axis indicates the count of instances in each category.
+
+This visualization is instrumental for assessing data balance, as an equitable distribution between the two classes is essential for training a robust machine learning model.
+
+The height of the bars show that there is significant imbalance in the dataset and it is essential to address these imbalances through techniques such resampling.
+
+<br>
+
+**Pie Chart of Churn**
+
+<br>
+
+<img src="images/churn_rate_pie_char.png" alt="Image Description" width ="800" height="300">
+
+
+The dataset exhibits a notable class imbalance, with a substantial majority class and a smaller minority class. Given this imbalance, machine learning algorithms renowned for their ability to handle imbalanced datasets will be employed for model training.
+
+Notably, Random Forest and Support Vector Classifier (SVC) are selected, as these algorithms inherently account for class distribution in their learning processes. Random Forest, in particular, stands out as an ensemble method that has demonstrated effectiveness in addressing class imbalance challenges.
+
+<br>
+
+
+
+
+
+
+
+
 
 # References
 
