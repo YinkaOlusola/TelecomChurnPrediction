@@ -79,6 +79,8 @@ Gender and partner distribution in the dataset is relatively balanced, with appr
 
 <br>
 
+<br>
+
 <img src="images/plot_SeniorCitizen.png" alt="Image Description" width ="800" height="300">
 
 <br>
@@ -97,6 +99,10 @@ Gender and partner distribution in the dataset is relatively balanced, with appr
 
 Notably, as can be seen from the three plots above a discernible proportion of churn is observed in younger customers (SeniorCitizen = 0), customers without partners, and those without dependents. The demographic analysis underscores non-senior citizens without partners and dependents as a specific customer segment exhibiting a higher likelihood of churning. 
 
+<br>
+
+<br>
+
 <img src="images/plot_PhoneService.png" alt="Image Description" width ="800" height="300">
 
 <br>
@@ -110,12 +116,19 @@ Notably, as can be seen from the three plots above a discernible proportion of c
 
 If a customer lacks phone service, the possibility of having multiple lines is excluded. Notably, a considerable proportion of customers subscribing to phone services exhibits a heightened likelihood of churning.
 
+<br>
+
+<br>
+
 <img src="images/plot_InternetService.png" alt="Image Description" width ="800" height="400">
 
 <br>
 
 <br>
 
+ Conversely, customers with fiber optic as their internet service demonstrate an increased propensity to churn, potentially influenced by factors such as elevated costs, market competition, and customer service concerns. The comparatively higher cost of fiber optic service, as opposed to DSL, could be a contributing factor to customer attrition.
+
+<br>
 
 <img src="images/plot_OnlineSecurity.png" alt="Image Description" width ="800" height="400">
 
@@ -128,11 +141,18 @@ If a customer lacks phone service, the possibility of having multiple lines is e
 
 <br>
 
+<br>
+
+
 <img src="images/plot_DeviceProtection.png" alt="Image Description" width ="800" height="400">
 
 <br>
 
 <img src="images/plot_TechSupport.png" alt="Image Description" width ="800" height="400">
+
+<br>
+
+Customers availing services like OnlineSecurity, OnlineBackup, DeviceProtection, and TechSupport are notably less inclined to churn.
 
 <br>
 
@@ -159,12 +179,12 @@ If a customer lacks phone service, the possibility of having multiple lines is e
 
 <br>
 
- Conversely, customers with fiber optic as their internet service demonstrate an increased propensity to churn, potentially influenced by factors such as elevated costs, market competition, and customer service concerns. The comparatively higher cost of fiber optic service, as opposed to DSL, could be a contributing factor to customer attrition.
+
 
 
 <br>
 
-Customers availing services like OnlineSecurity, OnlineBackup, DeviceProtection, and TechSupport are notably less inclined to churn. Interestingly, the availability of Streaming service appears to exhibit no discernible predictive pattern for churn, as it is evenly distributed among both 'yes' and 'no' options.
+ Interestingly, the availability of Streaming service appears to exhibit no discernible predictive pattern for churn, as it is evenly distributed among both 'yes' and 'no' options.
 
 <br>
 
