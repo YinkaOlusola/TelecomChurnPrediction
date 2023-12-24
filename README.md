@@ -53,6 +53,13 @@ Develop a predictive model to identify customers at risk of churning based on hi
 The developed model should provide telecom companies with a proactive tool to identify customers at risk of churning, enabling them to implement targeted retention strategies and enhance overall customer satisfaction. The ultimate goal is to reduce customer churn, thereby contributing to increased customer lifetime value and the overall success of the telecommunications business.
 
 
+# **Exploratory Data Analysis**
+
+### **Bar Plots for Categorical Features**
+
+
+
+
 ## **Algorithm Selection**
 
 The Telco Churn Prediction task involves classifying customers into two categories: those likely to churn and those likely to stay.
@@ -62,7 +69,17 @@ This task is framed as a binary classification problem, where the algorithm must
 Logistic Regression is a suitable choice for this task due to its interpretability. The telecom industry often requires explanations for business decisions, and Logistic Regression provides coefficients for each feature, making it easier to understand the impact of predictors on the likelihood of churn.
 
 
+The plots above show a consistently low churn rate for each categorical features. Moreso, from the plots, there is a trace of data imbalance which will be investigated using charts.
 
+
+
+Gender and partner distribution in the dataset is relatively balanced, with approximately equal values for each category. Although there is a slightly elevated churn rate in females, the marginal difference is considered negligible. Notably, a discernible proportion of churn is observed in younger customers (SeniorCitizen = 0), customers without partners, and those without dependents. The demographic analysis underscores non-senior citizens without partners and dependents as a specific customer segment exhibiting a higher likelihood of churning.
+
+
+If a customer lacks phone service, the possibility of having multiple lines is excluded. Notably, a considerable proportion of customers subscribing to phone services exhibits a heightened likelihood of churning. Conversely, customers with fiber optic as their internet service demonstrate an increased propensity to churn, potentially influenced by factors such as elevated costs, market competition, and customer service concerns. The comparatively higher cost of fiber optic service, as opposed to DSL, could be a contributing factor to customer attrition. Additionally, customers availing services like OnlineSecurity, OnlineBackup, DeviceProtection, and TechSupport are notably less inclined to churn. Interestingly, the availability of Streaming service appears to exhibit no discernible predictive pattern for churn, as it is evenly distributed among both 'yes' and 'no' options.
+
+
+The shorter the contract, the higher the churn rate. Those with more extended plans face additional barriers when canceling early. This clearly explains the motivation for companies to have long-term relationships with their customers. Churn Rate is higher for the customers who opted for paperless billing. Customers who pay with electronic checks are more likely to churn, and this kind of payment is more common than other payment types.
 
 
 
@@ -71,8 +88,20 @@ Logistic Regression is a suitable choice for this task due to its interpretabili
 
 [1] Introduction to Churn : https://www.kdnuggets.com/2019/05/churn-prediction-machine-learning.html
 
-[2] Customer Churn : https://neptune.ai/blog/how-to-implement-customer-churn-prediction
+[2] Customer Churn and categorical plots: https://neptune.ai/blog/how-to-implement-customer-churn-prediction
 
 [3] Churning : https://www.sciencedirect.com/science/article/pii/S2666603023000143
 
 [4] Churn Rate : https://www.analyticsvidhya.com/blog/2022/09/bank-customer-churn-prediction-using-machine-learning/
+
+[5] Dataset description : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+[6] Dataset overview : https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113
+
+[7] Encoding Categorical features : https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html#sklearn.preprocessing.LabelEncoder
+
+[8] Precision as an Evaluation metric : https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html#sklearn.metrics.precision_score
+
+[9] Recall Score : https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#sklearn.metrics.recall_score
+
+[10] F1 Score : https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score
