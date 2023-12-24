@@ -74,6 +74,7 @@ As the data types of most of the features in the dataset are categorical, a coun
 
 <img src="images/plot_gender.png" alt="Image Description" width ="800" height="300">
 
+<br>
 
 Gender and partner distribution in the dataset is relatively balanced, with approximately equal values for each category. Although there is a slightly elevated churn rate in females, the marginal difference is considered negligible. 
 
@@ -87,7 +88,11 @@ Gender and partner distribution in the dataset is relatively balanced, with appr
 
 <br>
 
+<br>
+
 <img src="images/plot_Partner.png" alt="Image Description" width ="800" height="300">
+
+<br>
 
 <br>
 
@@ -109,6 +114,8 @@ Notably, as can be seen from the three plots above a discernible proportion of c
 
 <br>
 
+<br>
+
 <img src="images/plot_MultipleLines.png" alt="Image Description" width ="800" height="400">
 
 <br>
@@ -124,13 +131,15 @@ If a customer lacks phone service, the possibility of having multiple lines is e
 
 <br>
 
-<br>
-
  Conversely, customers with fiber optic as their internet service demonstrate an increased propensity to churn, potentially influenced by factors such as elevated costs, market competition, and customer service concerns. The comparatively higher cost of fiber optic service, as opposed to DSL, could be a contributing factor to customer attrition.
 
 <br>
 
+<br>
+
 <img src="images/plot_OnlineSecurity.png" alt="Image Description" width ="800" height="400">
+
+<br>
 
 <br>
 
@@ -143,8 +152,14 @@ If a customer lacks phone service, the possibility of having multiple lines is e
 
 <br>
 
+<br>
+
 
 <img src="images/plot_DeviceProtection.png" alt="Image Description" width ="800" height="400">
+
+<br>
+
+<br>
 
 <br>
 
@@ -156,6 +171,8 @@ Customers availing services like OnlineSecurity, OnlineBackup, DeviceProtection,
 
 <br>
 
+<br>
+
 <img src="images/plot_StreamingTV.png" alt="Image Description" width ="800" height="400">
 
 <br>
@@ -164,7 +181,19 @@ Customers availing services like OnlineSecurity, OnlineBackup, DeviceProtection,
 
 <br>
 
+Interestingly, the availability of Streaming service appears to exhibit no discernible predictive pattern for churn, as it is evenly distributed among both 'yes' and 'no' options.
+
+<br>
+
+<br>
+
 <img src="images/plot_Contract.png" alt="Image Description" width ="800" height="400">
+
+<br>
+
+The shorter the contract, the higher the churn rate. Those with more extended plans face additional barriers when canceling early. This clearly explains the motivation for companies to have long-term relationships with their customers.
+
+<br>
 
 <br>
 
@@ -176,25 +205,12 @@ Customers availing services like OnlineSecurity, OnlineBackup, DeviceProtection,
 
 <br>
 
+ Churn Rate is higher for the customers who opted for paperless billing. Customers who pay with electronic checks are more likely to churn, and this kind of payment is more common than other payment types.
 
 <br>
 
 
-
-
-<br>
-
- Interestingly, the availability of Streaming service appears to exhibit no discernible predictive pattern for churn, as it is evenly distributed among both 'yes' and 'no' options.
-
-<br>
-
-
-
-<br>
-
-The shorter the contract, the higher the churn rate. Those with more extended plans face additional barriers when canceling early. This clearly explains the motivation for companies to have long-term relationships with their customers. Churn Rate is higher for the customers who opted for paperless billing. Customers who pay with electronic checks are more likely to churn, and this kind of payment is more common than other payment types.
-
-The plots above show a consistently low churn rate for each categorical features. Moreso, from the plots, there is a trace of data imbalance which will be investigated using charts.
+In general, the plots above show a consistently low churn rate for each categorical features. Moreso, from the plots, there is a trace of data imbalance which will be investigated using charts.
 
 
 # References
