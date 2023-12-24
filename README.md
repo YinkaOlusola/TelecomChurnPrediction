@@ -65,14 +65,14 @@ Logistic Regression is a suitable choice for this task due to its interpretabili
 
 # **Exploratory Data Analysis**
 
-### **Bar Plots for Categorical Features**
+### **Data Visualization**
+
+As the data types of most of the features in the dataset are categorical, a count plot will be used to view the categorical features based on the churn rate [2].
+
+#### **Bar Plots for Categorical Features**
 
 
 <img src="images/plot_gender.png" alt="Image Description" width ="800" height="400">
-
-
-The plots above show a consistently low churn rate for each categorical features. Moreso, from the plots, there is a trace of data imbalance which will be investigated using charts.
-
 
 
 Gender and partner distribution in the dataset is relatively balanced, with approximately equal values for each category. Although there is a slightly elevated churn rate in females, the marginal difference is considered negligible. Notably, a discernible proportion of churn is observed in younger customers (SeniorCitizen = 0), customers without partners, and those without dependents. The demographic analysis underscores non-senior citizens without partners and dependents as a specific customer segment exhibiting a higher likelihood of churning.
@@ -81,41 +81,68 @@ Gender and partner distribution in the dataset is relatively balanced, with appr
 
 <img src="images/plot_SeniorCitizen.png" alt="Image Description" width ="800" height="400">
 
+<br>
+
 <img src="images/plot_Partner.png" alt="Image Description" width ="800" height="400">
+
+<br>
 
 <img src="images/plot_Dependents.png" alt="Image Description" width ="800" height="400">
 
+<br>
+
 <img src="images/plot_PhoneService.png" alt="Image Description" width ="800" height="400">
+
+<br>
 
 <img src="images/plot_MultipleLines.png" alt="Image Description" width ="800" height="400">
 
+<br>
+
 <img src="images/plot_InternetService.png" alt="Image Description" width ="800" height="400">
+
+<br>
 
 <img src="images/plot_OnlineSecurity.png" alt="Image Description" width ="800" height="400">
 
+<br>
+
 <img src="images/plot_OnlineBackup.png" alt="Image Description" width ="800" height="400">
+
+<br>
 
 <img src="images/plot_DeviceProtection.png" alt="Image Description" width ="800" height="400">
 
+<br>
+
 <img src="images/plot_TechSupport.png" alt="Image Description" width ="800" height="400">
+
+<br>
 
 <img src="images/plot_StreamingTV.png" alt="Image Description" width ="800" height="400">
 
+<br>
+
 <img src="images/plot_StreamingMovies.png" alt="Image Description" width ="800" height="400">
+
+<br>
 
 <img src="images/plot_Contract.png" alt="Image Description" width ="800" height="400">
 
+<br>
+
 <img src="images/plot_PaperlessBilling.png" alt="Image Description" width ="800" height="400">
 
+<br>
+
 <img src="images/plot_PaymentMethod.png" alt="Image Description" width ="800" height="400">
+
+<br>
 
 
 <br>
 
 If a customer lacks phone service, the possibility of having multiple lines is excluded. Notably, a considerable proportion of customers subscribing to phone services exhibits a heightened likelihood of churning. Conversely, customers with fiber optic as their internet service demonstrate an increased propensity to churn, potentially influenced by factors such as elevated costs, market competition, and customer service concerns. The comparatively higher cost of fiber optic service, as opposed to DSL, could be a contributing factor to customer attrition.
-
-<br>
-
 
 
 <br>
@@ -130,7 +157,7 @@ Customers availing services like OnlineSecurity, OnlineBackup, DeviceProtection,
 
 The shorter the contract, the higher the churn rate. Those with more extended plans face additional barriers when canceling early. This clearly explains the motivation for companies to have long-term relationships with their customers. Churn Rate is higher for the customers who opted for paperless billing. Customers who pay with electronic checks are more likely to churn, and this kind of payment is more common than other payment types.
 
-
+The plots above show a consistently low churn rate for each categorical features. Moreso, from the plots, there is a trace of data imbalance which will be investigated using charts.
 
 
 # References
