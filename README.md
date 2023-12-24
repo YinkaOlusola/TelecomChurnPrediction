@@ -53,6 +53,15 @@ Develop a predictive model to identify customers at risk of churning based on hi
 The developed model should provide telecom companies with a proactive tool to identify customers at risk of churning, enabling them to implement targeted retention strategies and enhance overall customer satisfaction. The ultimate goal is to reduce customer churn, thereby contributing to increased customer lifetime value and the overall success of the telecommunications business.
 
 
+## **Algorithm Selection**
+
+The Telco Churn Prediction task involves classifying customers into two categories: those likely to churn and those likely to stay.
+
+This task is framed as a binary classification problem, where the algorithm must learn patterns and relationships within the dataset to predict whether a customer is part of the "Churn" class or the "No Churn" class.
+
+Logistic Regression is a suitable choice for this task due to its interpretability. The telecom industry often requires explanations for business decisions, and Logistic Regression provides coefficients for each feature, making it easier to understand the impact of predictors on the likelihood of churn.
+
+
 
 
 
