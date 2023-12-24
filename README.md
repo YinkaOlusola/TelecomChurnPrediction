@@ -116,7 +116,7 @@ Notably, as can be seen from the three plots above a discernible proportion of c
 
 <br>
 
-<img src="images/plot_MultipleLines.png" alt="Image Description" width ="800" height="400">
+<img src="images/plot_MultipleLines.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
@@ -127,7 +127,7 @@ If a customer lacks phone service, the possibility of having multiple lines is e
 
 <br>
 
-<img src="images/plot_InternetService.png" alt="Image Description" width ="800" height="400">
+<img src="images/plot_InternetService.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
@@ -137,7 +137,7 @@ If a customer lacks phone service, the possibility of having multiple lines is e
 
 <br>
 
-<img src="images/plot_OnlineSecurity.png" alt="Image Description" width ="800" height="400">
+<img src="images/plot_OnlineSecurity.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
@@ -146,7 +146,7 @@ If a customer lacks phone service, the possibility of having multiple lines is e
 <br>
 
 
-<img src="images/plot_OnlineBackup.png" alt="Image Description" width ="800" height="400">
+<img src="images/plot_OnlineBackup.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
@@ -155,7 +155,7 @@ If a customer lacks phone service, the possibility of having multiple lines is e
 <br>
 
 
-<img src="images/plot_DeviceProtection.png" alt="Image Description" width ="800" height="400">
+<img src="images/plot_DeviceProtection.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
@@ -163,7 +163,7 @@ If a customer lacks phone service, the possibility of having multiple lines is e
 
 <br>
 
-<img src="images/plot_TechSupport.png" alt="Image Description" width ="800" height="400">
+<img src="images/plot_TechSupport.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
@@ -173,11 +173,15 @@ Customers availing services like OnlineSecurity, OnlineBackup, DeviceProtection,
 
 <br>
 
-<img src="images/plot_StreamingTV.png" alt="Image Description" width ="800" height="400">
+<img src="images/plot_StreamingTV.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
-<img src="images/plot_StreamingMovies.png" alt="Image Description" width ="800" height="400">
+<br>
+
+<br>
+
+<img src="images/plot_StreamingMovies.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
@@ -187,7 +191,7 @@ Interestingly, the availability of Streaming service appears to exhibit no disce
 
 <br>
 
-<img src="images/plot_Contract.png" alt="Image Description" width ="800" height="400">
+<img src="images/plot_Contract.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
@@ -197,11 +201,13 @@ The shorter the contract, the higher the churn rate. Those with more extended pl
 
 <br>
 
-<img src="images/plot_PaperlessBilling.png" alt="Image Description" width ="800" height="400">
+<img src="images/plot_PaperlessBilling.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
-<img src="images/plot_PaymentMethod.png" alt="Image Description" width ="800" height="400">
+<br>
+
+<img src="images/plot_PaymentMethod.png" alt="Image Description" width ="800" height="300">
 
 <br>
 
