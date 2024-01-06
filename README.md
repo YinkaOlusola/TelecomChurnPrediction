@@ -240,7 +240,7 @@ The height of the bars show that there is significant imbalance in the dataset a
 
 <br>
 
-<img src="images/churn_rate_pie_char.png" alt="Image Description" width ="800" height="300">
+<img src="images/churn_rate_pie_char.png" alt="Image Description" width ="500" height="500">
 
 
 The dataset exhibits a notable class imbalance, with a substantial majority class and a smaller minority class. Given this imbalance, machine learning algorithms renowned for their ability to handle imbalanced datasets will be employed for model training.
