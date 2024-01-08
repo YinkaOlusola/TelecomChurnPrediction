@@ -232,15 +232,7 @@ The plotted count distribution provides an overview of the `Churn` column in the
 
 This visualization is instrumental for assessing data balance, as an equitable distribution between the two classes is essential for training a robust machine learning model.
 
-The height of the bars show that there is significant imbalance in the dataset and it is essential to address these imbalances through techniques such resampling.
-
-<br>
-
-**Pie Chart of Churn**
-
-<br>
-
-<img src="images/churn_rate_pie_char.png" alt="Image Description" width ="400" height="400">
+The height of the bars show that there is a significant imbalance in the dataset and it is essential to address these imbalances through techniques such resampling.
 
 
 The dataset exhibits a notable class imbalance, with a substantial majority class and a smaller minority class. Given this imbalance, machine learning algorithms renowned for their ability to handle imbalanced datasets will be employed for model training.
