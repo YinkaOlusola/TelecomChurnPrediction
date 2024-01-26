@@ -237,7 +237,7 @@ The height of the bars show that there is a significant imbalance in the dataset
 
 The dataset exhibits a notable class imbalance, with a substantial majority class and a smaller minority class. Given this imbalance, machine learning algorithms renowned for their ability to handle imbalanced datasets will be employed for model training.
 
-Notably, Random Forest and Support Vector Classifier (SVC) are selected, as these algorithms inherently account for class distribution in their learning processes. Random Forest, in particular, stands out as an ensemble method that has demonstrated effectiveness in addressing class imbalance challenges.
+Notably, Random Forest and Naive Bayes Classifier are selected, as these algorithms inherently account for class distribution in their learning processes. Random Forest, in particular, stands out as an ensemble method that has demonstrated effectiveness in addressing class imbalance challenges.
 
 <br>
 
