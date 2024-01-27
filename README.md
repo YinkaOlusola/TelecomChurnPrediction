@@ -237,17 +237,152 @@ The height of the bars show that there is a significant imbalance in the dataset
 
 The dataset exhibits a notable class imbalance, with a substantial majority class and a smaller minority class. Given this imbalance, machine learning algorithms renowned for their ability to handle imbalanced datasets will be employed for model training.
 
-Notably, Random Forest and Naive Bayes Classifier are selected, as these algorithms inherently account for class distribution in their learning processes. Random Forest, in particular, stands out as an ensemble method that has demonstrated effectiveness in addressing class imbalance challenges.
+Notably, `Random Forest` and `Naive Bayes Classifier` are selected, as these algorithms inherently account for class distribution in their learning processes. Random Forest, in particular, stands out as an ensemble method that has demonstrated effectiveness in addressing class imbalance challenges.
+
+<br>
+
+#### Distribution of Numerical Features
+
+<img src="images/histograms_of_numerical_features.png" alt="Image Description" width ="800" 
+
+<br>
+
+The Histogram above depicting customer tenure reveals a right-skewed distribution, indicating that a sigificant portion of customers has a relatively short association with the telecommunication company, predominantly within the initial 0-9 months. Correspondingly, the highest incidence of churn is observed during this initial period, highlighting that a considerable number of customers decide to discontinue services within their first 30 months.
+
+A closer examination of the monthly charge histogram reveals a noteworthy pattern - customers with higher monthly charges display an increased churn rate. This finding suggests a potential correlation between the attractiveness of discounts and promotions and customer retention.
+
+In essence, it implies that the provision of discounts or promotional offers could serve as a compelling incentive for customers to sustain their subscriptions, thereby reducing the likelihood of churn. This insight highlights the importance of promotional strategies in fostering customer loyalty and mitigating churn risks.
+
+
+<br>
+
+<img src="images/box_plots_of_numerical_features.png" alt="Image Description" width ="800"
+
+<br>
+
+The insights derived from the box plots above align with the findings from the histogram, reinforcing the observation about customer churn.
+
+The combination of the Box plots and Histograms provides a comprehensive understanding of the distribution and tendencies within the numerical features of the telco dataset. The identified patterns, supported by the presence of outliers, contribute valuable insights into potential factors influencing customer churn, such as tenure duration, monthly charges and total expenditure.
+
+
+### **SMOTE for Data Balancing**
+
+In imbalanced datasets, where one class has significantly fewer instances than the other, machine learning models might be biased toward the majority class.
+
+SMOTE - which stands for Synthetic Minority Over-sampling Technique - can be used to mitigate this issue by creating synthetic samples for the minority class, thus achieving a more balanced distribution.
+
+<br>
+
+<img src="images/balanced_data.png" alt="Image Description" width ="800"
+
+<br>
+
+SMOTE was applied to the dataset to balance the class distribution, then the models were trained on the balanced dataset and the performance of the models were observed and compared with the baseline model.
 
 <br>
 
 
+# ###########################################################################
+# ###########################################################################
+\                           RESULT DATAFRAME
+# ###########################################################################
+# ###########################################################################
+
+## FINDINGS
+
+**Logistic Regression**
+
+  - This model attained a **`balanced accuracy`** of **`86.25%`**, accompanied by an **`F1 score`** of **`86.23%`**, showcasing a well-balanced compromise between precision and recall. Its suitability for interpretability renders it adept at elucidating the influence of features on predictions.
+
+ ***Advantages***
+
+  Its strengths lie in its interpretability, simplicity, and efficient training speed.
+
+ ***Drawbacks***
+
+  However, there are limitations to consider, such as potential challenges in capturing intricate non-linear relationships within the data.
+
+<br>
+
+**Naive Bayes Classifier**
+
+ - It attained a **`balanced accuracy`** registering at **`79.79%`** coupled with an **`F1 score`** of **`79.75%`**.
+
+  ***Advantages***
+
+  Naive Bayes is a simple and fast algorithm. It's computationally efficient and requires a relatively small amount of training data to estimate the parameters.
+
+  Implementation of the Naive Bayes classifier is straightforward. It is easy to understand and doesn't involve complex parameter tuning.
+
+  ***Drawbacks***
+
+  Naive Bayes can be sensitive to the quality of the input data. If the training set is not representative of the real-world data, or if certain features have missing values, it may lead to biased predictions.
+
+
+<br>
+
+**Random Forest Classifier**
+
+ - The model attained a **`balanced accuracy`** of **`85.97%`** and an **`F1 score`** of **`85.94%`**.
+
+  ***Advantages***
+
+  It demonstrates effectiveness in managing non-linear relationships and capturing intricate interactions within the dataset.
+
+  The model is resilient against overfitting and offers insights into feature importance.
+
+  ***Drawbacks***
+
+  However, it necessitates a lengthier training period compared to Logistic Regression and might demand more meticulous hyperparameter tuning to achieve optimal performance.
+
+<br>
+
+
+# DISCUSSION
+
+The evaluation of three distinct models revealed their effectiveness in predicting customer churn for telecom companies. Each model showcased commendable performance, with Random Forest excelling in capturing non-linear patterns, Logistic Regression providing a simpler, interpretable solution, and Naive Bayes demonstrating simplicity and faster training time.
+
+<br>
+
+**Strengths and Applications**
+
+These predictive models offer invaluable insights, empowering telecom companies to proactively address customer churn through targeted retention strategies. The balanced accuracy and F1 scores indicate a harmonious trade-off between precision and recall, crucial metrics for evaluating model efficacy.
+
+<br>
+
+**Challenges and Considerations**
+
+However, it's essential to acknowledge the impact of imbalanced datasets on model performance, particularly in terms of recall. To mitigate this issue, various strategies such as oversampling, undersampling, or alternative evaluation metrics were contemplated during the model tuning process.
+
+<br>
+
+**Recommendations for Model Enhancement**
+
+To further optimize model performance, a focused approach on hyperparameter tuning, especially for Random Forest and Naive Bayes, is recommended.
+
+Additionally, incorporating feature engineering techniques to generate more informative features has the potential to enhance overall model accuracy.
+
+***Addressing Imbalanced Datasets***
+
+Given the challenges posed by imbalanced datasets, exploring advanced techniques specifically designed to handle such scenarios is advisable.
+
+In conclusion, the choice among these models should align with the unique needs and constraints of the telecom company, considering factors such as interpretability, computational efficiency, and the level of non-linearity in the data.
 
 
 
+<br>
 
+# CONCLUSION
 
+The Telecommunication Churn Prediction has established a groundwork for proactive churn management within the telecommunications industry.
 
+Although the showcased models demonstrated satisfactory performance, continuous improvement and the exploration of advanced techniques are essential to enhance the accuracy of predictions and provide superior decision support for telecom companies.
+
+The iterative refinement process should remain integral, allowing for the adaptation to evolving data landscapes and ensuring the models stay at the forefront of churn prediction capabilities.
+
+<br>
+
+<br>
 
 # References
 
