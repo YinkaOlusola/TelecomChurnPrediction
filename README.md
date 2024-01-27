@@ -243,7 +243,7 @@ Notably, `Random Forest` and `Naive Bayes Classifier` are selected, as these alg
 
 #### Distribution of Numerical Features
 
-<img src="images/histograms_of_numerical_features.png" alt="Image Description" width ="800" 
+<img src="images/histograms_of_numerical_features.png" alt="Image Description" width ="800">
 
 <br>
 
@@ -256,7 +256,7 @@ In essence, it implies that the provision of discounts or promotional offers cou
 
 <br>
 
-<img src="images/box_plots_of_numerical_features.png" alt="Image Description" width ="800"
+<img src="images/box_plots_of_numerical_features.png" alt="Image Description" width ="800">
 
 <br>
 
@@ -273,7 +273,7 @@ SMOTE - which stands for Synthetic Minority Over-sampling Technique - can be use
 
 <br>
 
-<img src="images/balanced_data.png" alt="Image Description" width ="800"
+<img src="images/balanced_data.png" alt="Image Description" width ="800">
 
 <br>
 
