@@ -291,8 +291,6 @@ SMOTE was applied to the dataset to balance the class distribution, then the mod
 ## RESULTS
 
 
-
-
 | Model | Accuracy | Precision | Recall | F1 Score |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Logistic Regression (Baseline model) | 0.751040 |	0.687117 |	0.600536 |	0.817846 |
@@ -301,6 +299,20 @@ SMOTE was applied to the dataset to balance the class distribution, then the mod
 | Tuned Logistic Regression | 0.861053 |	0.874140 |	0.847474 |	0.860865 |
 | Tuned Naive Bayes | 0.797912 |	0.760494 |	0.880839 |	0.797510 |
 | Tuned Random Forest | 0.857305 |	0.876877 |	0.835081 |	0.856968 |
+
+<br>
+
+### **Model Comparison**
+
+<img src="images/model_comparison.png" alt="Image Description" width ="800">
+
+<br>
+
+The graph above illustrates noteworthy improvements in all performance metrics for the models following tuning, particularly when a balanced dataset was used.
+
+Notably, the logistic regression model exhibited the most substantial improvement, ultimately achieving the highest F1 score among the tuned models.
+
+This observation underscores the effectiveness of dataset balancing techniques in refining model performance and highlights the logistic regression model as particularly promising in the context of the analyzed metrics.
 
 ## FINDINGS
 
