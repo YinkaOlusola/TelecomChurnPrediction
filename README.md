@@ -8,7 +8,7 @@ The telecommunications industry, serving as a cornerstone for connectivity servi
 
 <br>
 
-<img src="images/customer_churn.png" alt="Image Description" width ="800" height="300">
+<img src="images/customer_churn.png" alt="Image Description" width ="800" height="500">
 
 <br>
 
