@@ -291,14 +291,16 @@ SMOTE was applied to the dataset to balance the class distribution, then the mod
 ## RESULTS
 
 
+
+
 | Model | Accuracy | Precision | Recall | F1 Score |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Logistic Regression (baseline) | ------------ | ------------ | ------------ | ------------ |
-| Naive Bayes (baseline) | ------------ | ------------ | ------------ | ------------ |
-| Random Forest (baseline) | ------------ | ------------ | ------------ | ------------ |
-| Tuned Logistic Regression | ------------ | ------------ | ------------ | ------------ |
-| Tuned Naive Bayes | ------------ | ------------ | ------------ | ------------ |
-| Tuned Random Forest | ------------ | ------------ | ------------ | ------------ |
+| Logistic Regression (Baseline model) | 0.751040 |	0.687117 |	0.600536 |	0.817846 |
+| Naive Bayes (Baseline model) | 0.738369 |	0.435864 |	0.892761 |	0.684321 |
+| Random Forest (Baseline model) | 0.688360 |	0.651685 |	0.466488 |	0.780642 |
+| Tuned Logistic Regression | 0.861053 |	0.874140 |	0.847474 |	0.860865 |
+| Tuned Naive Bayes | 0.797912 |	0.760494 |	0.880839 |	0.797510 |
+| Tuned Random Forest | 0.857305 |	0.876877 |	0.835081 |	0.856968 |
 
 ## FINDINGS
 
